@@ -1,0 +1,43 @@
+.filter__weiget select{
+    padding: 10px 20px;
+    border: 1px solid var(--primary-color);
+    border-radius: 10px;
+    background-color: var(--primary-color);
+    color: #fff;    
+    cursor: pointer;
+}
+.filter__weiget select:focus{
+    outline: none !important;
+}
+.filter__weiget select option{
+    font-size: 0.9rem;
+}
+.search__box{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    padding-right: 12px;
+    padding-left: 2px;
+    cursor: pointer;
+    border: 1px solid var(--primary-color);
+}
+.search__box input{
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: 8px 10px;
+}
+.search__box span{
+    color: var(--primary-color);
+}
+@media only screen and (max-width:768px){
+    .filter__weiget {
+        margin-bottom: 30px;
+    }
+    .filter__weiget select{
+        padding: 7px 20px;
+        font-style: 0.9rem;
+    }    
+}

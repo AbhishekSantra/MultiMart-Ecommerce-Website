@@ -1,0 +1,21 @@
+.billing__info .form__group input{
+    border:1px solid var(--card-bg-02)
+}
+.checkOut__form{
+    padding: 20px;
+    color: #fff;
+    border-radius: 5px;
+    background-color: var(--primary-color);
+}
+.checkOut__form h6,h4{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.checkOut__form h6{
+    margin-bottom: 20px;
+}
+.checkOut__form h4{
+    border-top: 1px solid rgba(221,221,221,0.253);
+    padding-top: 20px;
+}
